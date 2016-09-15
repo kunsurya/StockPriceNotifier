@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StockPriceNotifier.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:StockPriceNotifier.Fakes.StubIEmailClient">
+            <summary>Stub type of StockPriceNotifier.IEmailClient</summary>
+        </member>
+        <member name="M:StockPriceNotifier.Fakes.StubIEmailClient.#ctor">
+            <summary>Initializes a new instance of type StubIEmailClient</summary>
+        </member>
+        <member name="F:StockPriceNotifier.Fakes.StubIEmailClient.SendEmailMailMessage">
+            <summary>Sets the stub of IEmailClient.SendEmail(MailMessage m)</summary>
+        </member>
+        <member name="M:StockPriceNotifier.Fakes.StubIEmailClient.StockPriceNotifier#IEmailClient#SendEmail(System.Net.Mail.MailMessage)">
+            <summary>Sets the stub of IEmailClient.SendEmail(MailMessage m)</summary>
+        </member>
+        <member name="T:StockPriceNotifier.Fakes.StubIStockDataProvider">
+            <summary>Stub type of StockPriceNotifier.IStockDataProvider</summary>
+        </member>
+        <member name="M:StockPriceNotifier.Fakes.StubIStockDataProvider.#ctor">
+            <summary>Initializes a new instance of type StubIStockDataProvider</summary>
+        </member>
+        <member name="F:StockPriceNotifier.Fakes.StubIStockDataProvider.GetLatestTickerPriceString">
+            <summary>Sets the stub of IStockDataProvider.GetLatestTickerPrice(String ticker)</summary>
+        </member>
+        <member name="M:StockPriceNotifier.Fakes.StubIStockDataProvider.StockPriceNotifier#IStockDataProvider#GetLatestTickerPrice(System.String)">
+            <summary>Sets the stub of IStockDataProvider.GetLatestTickerPrice(String ticker)</summary>
+        </member>
+    </members>
+</doc>

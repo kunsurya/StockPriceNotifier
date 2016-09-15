@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>System.4.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:System.Net.Mail.Fakes.ShimSmtpClient">
+            <summary>Shim type of System.Net.Mail.SmtpClient</summary>
+        </member>
+        <member name="M:System.Net.Mail.Fakes.ShimSmtpClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:System.Net.Mail.Fakes.ShimSmtpClient.#ctor(System.Net.Mail.SmtpClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.ClientCertificatesGet">
+            <summary>Sets the shim of SmtpClient.get_ClientCertificates()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.CredentialsGet">
+            <summary>Sets the shim of SmtpClient.get_Credentials()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.CredentialsSetICredentialsByHost">
+            <summary>Sets the shim of SmtpClient.set_Credentials(ICredentialsByHost value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.DeliveryFormatGet">
+            <summary>Sets the shim of SmtpClient.get_DeliveryFormat()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.DeliveryFormatSetSmtpDeliveryFormat">
+            <summary>Sets the shim of SmtpClient.set_DeliveryFormat(SmtpDeliveryFormat value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.DeliveryMethodGet">
+            <summary>Sets the shim of SmtpClient.get_DeliveryMethod()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.DeliveryMethodSetSmtpDeliveryMethod">
+            <summary>Sets the shim of SmtpClient.set_DeliveryMethod(SmtpDeliveryMethod value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.Dispose">
+            <summary>Sets the shim of SmtpClient.Dispose()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.DisposeBoolean">
+            <summary>Sets the shim of SmtpClient.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.EnableSslGet">
+            <summary>Sets the shim of SmtpClient.get_EnableSsl()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.EnableSslSetBoolean">
+            <summary>Sets the shim of SmtpClient.set_EnableSsl(Boolean value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.HostGet">
+            <summary>Sets the shim of SmtpClient.get_Host()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.HostSetString">
+            <summary>Sets the shim of SmtpClient.set_Host(String value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.InCallGet">
+            <summary>Sets the shim of SmtpClient.get_InCall()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.InCallSetBoolean">
+            <summary>Sets the shim of SmtpClient.set_InCall(Boolean value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.OnSendCompletedAsyncCompletedEventArgs">
+            <summary>Sets the shim of SmtpClient.OnSendCompleted(AsyncCompletedEventArgs e)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.PickupDirectoryLocationGet">
+            <summary>Sets the shim of SmtpClient.get_PickupDirectoryLocation()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.PickupDirectoryLocationSetString">
+            <summary>Sets the shim of SmtpClient.set_PickupDirectoryLocation(String value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.PortGet">
+            <summary>Sets the shim of SmtpClient.get_Port()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.PortSetInt32">
+            <summary>Sets the shim of SmtpClient.set_Port(Int32 value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendAsyncCancel">
+            <summary>Sets the shim of SmtpClient.SendAsyncCancel()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendAsyncMailMessageObject">
+            <summary>Sets the shim of SmtpClient.SendAsync(MailMessage message, Object userToken)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendAsyncStringStringStringStringObject">
+            <summary>Sets the shim of SmtpClient.SendAsync(String from, String recipients, String subject, String body, Object userToken)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendCompletedAddSendCompletedEventHandler">
+            <summary>Sets the shim of SmtpClient.add_SendCompleted(SendCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendCompletedRemoveSendCompletedEventHandler">
+            <summary>Sets the shim of SmtpClient.remove_SendCompleted(SendCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendMailAsyncMailMessage">
+            <summary>Sets the shim of SmtpClient.SendMailAsync(MailMessage message)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendMailAsyncStringStringStringString">
+            <summary>Sets the shim of SmtpClient.SendMailAsync(String from, String recipients, String subject, String body)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendMailMessage">
+            <summary>Sets the shim of SmtpClient.Send(MailMessage message)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.SendStringStringStringString">
+            <summary>Sets the shim of SmtpClient.Send(String from, String recipients, String subject, String body)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.ServicePointGet">
+            <summary>Sets the shim of SmtpClient.get_ServicePoint()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.TargetNameGet">
+            <summary>Sets the shim of SmtpClient.get_TargetName()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.TargetNameSetString">
+            <summary>Sets the shim of SmtpClient.set_TargetName(String value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.TimeoutGet">
+            <summary>Sets the shim of SmtpClient.get_Timeout()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.TimeoutSetInt32">
+            <summary>Sets the shim of SmtpClient.set_Timeout(Int32 value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.UseDefaultCredentialsGet">
+            <summary>Sets the shim of SmtpClient.get_UseDefaultCredentials()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.AllInstances.UseDefaultCredentialsSetBoolean">
+            <summary>Sets the shim of SmtpClient.set_UseDefaultCredentials(Boolean value)</summary>
+        </member>
+        <member name="M:System.Net.Mail.Fakes.ShimSmtpClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Net.Mail.Fakes.ShimSmtpClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:System.Net.Mail.Fakes.ShimSmtpClient.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.ClientCertificatesGet">
+            <summary>Sets the shim of SmtpClient.get_ClientCertificates()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.Constructor">
+            <summary>Sets the shim of SmtpClient.SmtpClient()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.ConstructorString">
+            <summary>Sets the shim of SmtpClient.SmtpClient(String host)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.ConstructorStringInt32">
+            <summary>Sets the shim of SmtpClient.SmtpClient(String host, Int32 port)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.CredentialsGet">
+            <summary>Sets the shim of SmtpClient.get_Credentials()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.CredentialsSetICredentialsByHost">
+            <summary>Sets the shim of SmtpClient.set_Credentials(ICredentialsByHost value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.DeliveryFormatGet">
+            <summary>Sets the shim of SmtpClient.get_DeliveryFormat()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.DeliveryFormatSetSmtpDeliveryFormat">
+            <summary>Sets the shim of SmtpClient.set_DeliveryFormat(SmtpDeliveryFormat value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.DeliveryMethodGet">
+            <summary>Sets the shim of SmtpClient.get_DeliveryMethod()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.DeliveryMethodSetSmtpDeliveryMethod">
+            <summary>Sets the shim of SmtpClient.set_DeliveryMethod(SmtpDeliveryMethod value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.Dispose">
+            <summary>Sets the shim of SmtpClient.Dispose()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.DisposeBoolean">
+            <summary>Sets the shim of SmtpClient.Dispose(Boolean disposing)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.EnableSslGet">
+            <summary>Sets the shim of SmtpClient.get_EnableSsl()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.EnableSslSetBoolean">
+            <summary>Sets the shim of SmtpClient.set_EnableSsl(Boolean value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.HostGet">
+            <summary>Sets the shim of SmtpClient.get_Host()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.HostSetString">
+            <summary>Sets the shim of SmtpClient.set_Host(String value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.InCallGet">
+            <summary>Sets the shim of SmtpClient.get_InCall()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.InCallSetBoolean">
+            <summary>Sets the shim of SmtpClient.set_InCall(Boolean value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.OnSendCompletedAsyncCompletedEventArgs">
+            <summary>Sets the shim of SmtpClient.OnSendCompleted(AsyncCompletedEventArgs e)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.PickupDirectoryLocationGet">
+            <summary>Sets the shim of SmtpClient.get_PickupDirectoryLocation()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.PickupDirectoryLocationSetString">
+            <summary>Sets the shim of SmtpClient.set_PickupDirectoryLocation(String value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.PortGet">
+            <summary>Sets the shim of SmtpClient.get_Port()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.PortSetInt32">
+            <summary>Sets the shim of SmtpClient.set_Port(Int32 value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendAsyncCancel">
+            <summary>Sets the shim of SmtpClient.SendAsyncCancel()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendAsyncMailMessageObject">
+            <summary>Sets the shim of SmtpClient.SendAsync(MailMessage message, Object userToken)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendAsyncStringStringStringStringObject">
+            <summary>Sets the shim of SmtpClient.SendAsync(String from, String recipients, String subject, String body, Object userToken)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendCompletedAddSendCompletedEventHandler">
+            <summary>Sets the shim of SmtpClient.add_SendCompleted(SendCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendCompletedRemoveSendCompletedEventHandler">
+            <summary>Sets the shim of SmtpClient.remove_SendCompleted(SendCompletedEventHandler value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendMailAsyncMailMessage">
+            <summary>Sets the shim of SmtpClient.SendMailAsync(MailMessage message)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendMailAsyncStringStringStringString">
+            <summary>Sets the shim of SmtpClient.SendMailAsync(String from, String recipients, String subject, String body)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendMailMessage">
+            <summary>Sets the shim of SmtpClient.Send(MailMessage message)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.SendStringStringStringString">
+            <summary>Sets the shim of SmtpClient.Send(String from, String recipients, String subject, String body)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.ServicePointGet">
+            <summary>Sets the shim of SmtpClient.get_ServicePoint()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.StaticConstructor">
+            <summary>Sets the shim of SmtpClient.SmtpClient()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.TargetNameGet">
+            <summary>Sets the shim of SmtpClient.get_TargetName()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.TargetNameSetString">
+            <summary>Sets the shim of SmtpClient.set_TargetName(String value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.TimeoutGet">
+            <summary>Sets the shim of SmtpClient.get_Timeout()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.TimeoutSetInt32">
+            <summary>Sets the shim of SmtpClient.set_Timeout(Int32 value)</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.UseDefaultCredentialsGet">
+            <summary>Sets the shim of SmtpClient.get_UseDefaultCredentials()</summary>
+        </member>
+        <member name="P:System.Net.Mail.Fakes.ShimSmtpClient.UseDefaultCredentialsSetBoolean">
+            <summary>Sets the shim of SmtpClient.set_UseDefaultCredentials(Boolean value)</summary>
+        </member>
+    </members>
+</doc>
